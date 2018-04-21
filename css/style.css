@@ -19,7 +19,7 @@ body {
 	grid-template-columns: 96px 1fr;
 	background-color: white;
 	padding: 16px 16vw;
-	box-shadow: 0 12px 12px -8px black;
+	/*box-shadow: 0 12px 12px -8px black;*/
 }
 
 #logo {
@@ -42,6 +42,7 @@ body {
 }
 
 #links > ul {
+
 }
 
 #links > ul > li {
@@ -68,7 +69,7 @@ body {
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-column: 1 / -1;
-	background-color: rgb(0, 32, 96);
+	background-color: #30579A;
 	padding: 0 16vw;
 	height: 40vh;
 	align-items: center;
