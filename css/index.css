@@ -1,0 +1,62 @@
+div.showcase > #title {
+	display: flex;
+	grid-column: 2/6;
+	align-items: center;
+	justify-content: center;
+	margin: 25vh 0;
+	border-right: solid #7AB800 2px;
+}
+
+div.showcase > #title span {
+	/*text-align: center;*/
+}
+
+div.showcase > #title h1,h2 {
+	font-family: "Tajawal", sans-serif;
+	font-weight: 800;
+	line-height: 0.2;
+	color: white;
+}
+
+div.showcase > #title h1 {
+	color: #7AB800;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+div.showcase > #title h2 {
+	font-size: 2em;
+}
+
+div.showcase > #notices {
+	display: flex;
+	grid-column: 6/8;
+	align-items: center;
+	justify-content: center;
+	margin: 25vh 0;
+}
+
+div.showcase > #notices span {
+	text-align: right;
+}
+
+div.showcase > #notices h1,h2 {
+	font-family: "Tajawal", sans-serif;
+	font-weight: 800;
+	line-height: 0.8;
+	color: white;
+}
+
+div.showcase > #notices h1 {
+	color: #7AB800;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+div.showcase > #notices h1:last-of-type {
+	padding-top: 32px;
+}
+
+div.showcase > #notices h2 {
+	font-size: 1.2em;
+}
