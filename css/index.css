@@ -8,7 +8,7 @@ div.showcase > #title {
 }
 
 div.showcase > #title span {
-	/*text-align: center;*/
+	text-align: center;
 }
 
 div.showcase > #title h1,h2 {
