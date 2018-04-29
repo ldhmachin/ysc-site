@@ -6,10 +6,12 @@ Green #7AB800
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Tajawal:800');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 
 body {
 	margin: 0 0;
 	background-color: white;
+	overflow-x: hidden;
 }
 
 div.ec {
@@ -22,6 +24,7 @@ div.ec {
 	width: 100vw;
 	height: 64px;
 	background-color: white;
+	z-index: 999;
 }
 
 #logo {
@@ -79,7 +82,12 @@ div.ec {
 
 div.showcase {
 	grid-column: 1/-1;
+	padding: 128px 0;
+}
+
+div.full {
 	height: 100vh;
+	padding: 0;
 }
 
 div.blue {
